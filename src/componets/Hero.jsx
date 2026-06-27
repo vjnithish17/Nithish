@@ -1,20 +1,13 @@
 import "../css/hero.css";
 import profile from "../assets/images/Nihtish.png";
 
-import { FaGithub, FaLinkedin, FaMapMarkerAlt } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { motion } from "framer-motion";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Hero() {
   return (
     <section className="hero" id="home">
 
-      <motion.div
-        className="hero-left"
-        initial={{ opacity: 0, x: -80 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: .8 }}
-      >
+      <div className="hero-left">
 
         <p className="hello">👋 Hello, I'm</p>
 
@@ -30,25 +23,13 @@ function Hero() {
           responsive and scalable web applications with modern UI
           and best development practices.
         </p>
-{/* 
-        <div className="hero-info">
 
-          <div className="info-card">
-            <FaMapMarkerAlt />
-            <span>Karur, Tamil Nadu</span>
-          </div>
-
-          <div className="info-card">
-            <HiOutlineMail />
-            <span>Available for Work</span>
-          </div>
-
-        </div> */}
-
+        {/* Buttons */}
         <div className="hero-btn">
 
-          <a href="/resume.pdf" target="_blank" rel="noreferrer">
-            <button>Download CV</button>
+          {/* <a href="/resume.pdf" target="_blank" rel="noreferrer"> */}
+          <a href="/resume.pdf" download>
+            <button className="glass-btn">Download CV</button>
           </a>
 
           <a href="#projects">
@@ -59,6 +40,7 @@ function Hero() {
 
         </div>
 
+        {/* Social */}
         <div className="social">
 
           <a
@@ -79,20 +61,15 @@ function Hero() {
 
         </div>
 
-      </motion.div>
+      </div>
 
-      <motion.div
-        className="hero-right"
-        initial={{ opacity: 0, x: 80 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: .8 }}
-      >
+      <div className="hero-right">
 
         <div className="img-box">
           <img src={profile} alt="Nithyasundharam" />
         </div>
 
-      </motion.div>
+      </div>
 
     </section>
   );

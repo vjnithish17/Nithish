@@ -12,7 +12,7 @@ function Footer() {
 
       <div className="footer-content">
 
-        <h2>Nithyasundharam</h2>
+        <h2>Nithyasundharam E</h2>
 
         <p>
           Full Stack MERN Developer passionate about building

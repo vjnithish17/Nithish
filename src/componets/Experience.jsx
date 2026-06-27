@@ -1,5 +1,4 @@
 import "../css/experience.css";
-import { motion } from "framer-motion";
 
 const timeline = [
   {
@@ -33,14 +32,7 @@ function Experience() {
 
       <div className="timeline">
         {timeline.map((item, index) => (
-          <motion.div
-            className="timeline-item"
-            key={index}
-            initial={{ opacity: 0, x: index % 2 === 0 ? -80 : 80 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.7 }}
-            viewport={{ once: true }}
-          >
+          <div className="timeline-item" key={index}>
             <div className="circle"></div>
 
             <div className="content">
@@ -48,7 +40,7 @@ function Experience() {
               <h3>{item.title}</h3>
               <p>{item.desc}</p>
             </div>
-          </motion.div>
+          </div>
         ))}
       </div>
     </section>

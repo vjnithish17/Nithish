@@ -89,6 +89,7 @@ function Projects() {
                   href={project.live}
                   target="_blank"
                   rel="noreferrer"
+                  className="glass-btn"
                 >
                   <FaExternalLinkAlt /> Live
                 </a>
