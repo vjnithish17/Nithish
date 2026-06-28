@@ -41,10 +41,10 @@ const projects = [
   {
     title: "Personal Portfolio",
     image: portfolio,
-    tech: ["React", "CSS", "Framer Motion"],
+    tech: ["React JS"],
     desc: "Modern developer portfolio with animations, responsive layout, EmailJS contact form, and smooth scrolling.",
-    live: "#",
-    github: "#",
+    live: "https://nithish-plum.vercel.app/",
+    github: "https://github.com/vjnithish17/Nithish",
   },
 ];
 

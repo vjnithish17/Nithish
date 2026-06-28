@@ -9,7 +9,7 @@ import {
 function Education() {
   return (
     <section className="education" id="education">
-      
+
       <div className="education-container">
 
         <p className="section-title">EDUCATION</p>
@@ -31,7 +31,7 @@ function Education() {
               Vetri Vinayaha College of Engineering & Technology, Trichy.
             </p>
 
-            <span>Anna University</span>
+            <span>Anna University </span>
 
             <p className="year">2023 - 2026</p>
 
@@ -51,7 +51,7 @@ function Education() {
               Vetri Vinayaha Polytechnic College, Trichy.
             </p>
 
-            <span>DOTE</span>
+            <span>DOTE </span>
 
             <p className="year">2022 - 2023</p>
 
@@ -88,13 +88,13 @@ function Education() {
 
             <ul className="cert-list">
               <li>✅ MERN Stack Development</li>
-              <li>📍 Skill Development Learning Center, Trichy.</li>
+              <li>📍 Skill Development Learning Center, Karur.</li>
             </ul>
           </div>
 
         </div>
       </div>
-      
+
     </section>
   );
 }
