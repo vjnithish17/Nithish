@@ -40,7 +40,7 @@ function About() {
         <div className="card">
           <FaCloud className="icon" />
           <h3>Cloud</h3>
-          <p>Security Basics</p>
+          <p>Fundamentals</p>
         </div>
       </div>
     </section>

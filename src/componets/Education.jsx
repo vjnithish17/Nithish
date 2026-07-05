@@ -15,7 +15,7 @@ function Education() {
         <p className="section-title">EDUCATION</p>
 
         <h2>
-          My <span>Education</span> Journey
+          My <span>Academic </span> Journey
         </h2>
 
         <div className="education-grid">
@@ -36,7 +36,7 @@ function Education() {
             <p className="year">2023 - 2026</p>
 
             <p className="cgpa">
-              CGPA : <strong>Currently Pursuing</strong>
+              CGPA : <strong>Updating ...</strong>
             </p>
           </div>
 
@@ -87,8 +87,8 @@ function Education() {
             <h3>Certifications</h3>
 
             <ul className="cert-list">
-              <li>✅ MERN Stack Development</li>
-              <li>📍 Skill Development Learning Center, Karur.</li>
+              <li> MERN Stack Development</li>
+              <li>Skill Development Learning Center, Karur.</li>
             </ul>
           </div>
 

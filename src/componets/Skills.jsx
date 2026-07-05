@@ -26,7 +26,7 @@ function Skills() {
         <p className="section-title">MY SKILLS</p>
 
         <h2>
-          Technologies I <span>Work With</span>
+      Technical <span>Work With</span>
         </h2>
 
         {/* Frontend */}

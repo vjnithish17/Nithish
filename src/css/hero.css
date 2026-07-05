@@ -195,7 +195,7 @@
 }
 
 .social a:hover {
-  transform: translateY(-8px);
+transform: translateY(-8px) scale(1.08);
   background: #00e5ff;
   color: #050816;
   box-shadow: 0 10px 30px rgba(0, 229, 255, 0.45);
@@ -279,7 +279,7 @@
 }
 
 .img-box:hover img {
-  transform: scale(1.03);
+transform: scale(1.05) rotate(2deg);
 }
 
 @keyframes ringRotate {

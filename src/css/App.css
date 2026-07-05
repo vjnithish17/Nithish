@@ -42,7 +42,10 @@ body{
 
     background-size:60px 60px;
 }
+.dark-theme{
+    background:linear-gradient(145deg,#580372,#0a0ab4) ;
 
+}
 /* Soft Glow Top */
 
 body::before{
@@ -310,5 +313,5 @@ p{
         grid-template-columns:1fr;
     }
 
-   
+
 }

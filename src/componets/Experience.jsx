@@ -8,7 +8,7 @@ const timeline = [
   },
   {
     year: "2025",
-    title: "Started MERN Stack",
+    title: "Started Full Stack Development (MERN)",
     desc: "Learned HTML, CSS, JavaScript, React, Node.js, Express and MongoDB.",
   },
   {
@@ -17,7 +17,7 @@ const timeline = [
     desc: "Developed Blog App, Employee Management System, Weather App and Portfolio.",
   },
   {
-    year: "Now",
+    year: "2026 - Present",
     title: "Open to Work",
     desc: "Looking for Full Stack Developer opportunities to contribute and grow.",
   },

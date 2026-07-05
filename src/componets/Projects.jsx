@@ -33,7 +33,7 @@ const projects = [
     title: "Dairy-Farm",
     image: blog,
     tech: ["HTML", "CSS", "JavaScript"],
-    desc: "A full-stack blog platform with authentication, CRUD operations, REST APIs, and MongoDB database integration.",
+    desc: "Developed a responsive dairy farm website with interactive UI using HTML, CSS, and JavaScript.",
     live: "https://vjnithish17.github.io/Dairy-Farm/",
     github: "https://github.com/vjnithish17/Dairy-Farm",
   },
@@ -55,7 +55,7 @@ function Projects() {
       <p className="section-title">PROJECTS</p>
 
       <h2>
-        Featured <span>Projects</span>
+       Real World  <span>Projects</span>
       </h2>
 
       <div className="project-grid">

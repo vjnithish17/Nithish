@@ -6,16 +6,18 @@ import {
   FaPhoneAlt,
   FaMapMarkerAlt,
 } from "react-icons/fa";
-import { useRef } from "react";
+import { useRef ,useState } from "react";
 import emailjs from "@emailjs/browser";
 
 function Contact() {
   const form = useRef();
+  const [loading, setLoading] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    console.log("FORM DATA:", form.current);
+     setLoading(true);
+    // console.log("FORM DATA:", form.current);
 
     emailjs
       .sendForm(
@@ -25,14 +27,18 @@ function Contact() {
         "K63bXerQikrFZihqt"
       )
       .then((result) => {
-        console.log("SUCCESS:", result.text);
-        alert("✅ Message Sent Successfully!");
+        // console.log("SUCCESS:", result.text);
+        // alert("✅ Message Sent Successfully!");
+         setLoading(false);
         form.current.reset();
       })
       .catch((error) => {
-        console.log("FULL ERROR:", error);
-        alert("❌ Failed to send message. Check console.");
+        // console.log("FULL ERROR:", error);
+         setLoading(false)
+        // alert("❌ Failed to send message. Check console.");
       });
+
+
   };
 
   return (
@@ -114,7 +120,7 @@ function Contact() {
           required
         ></textarea>
 
-        <button type="submit" className="glass-btn">Send Message</button>
+        <button type="submit" className="glass-btn"  disabled={loading}>  {loading ? "Sending..." : "Send Message"}</button>
       </form>
 
     </section>

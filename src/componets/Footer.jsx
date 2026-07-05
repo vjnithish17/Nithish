@@ -12,11 +12,10 @@ function Footer() {
 
       <div className="footer-content">
 
-        <h2>Nithyasundharam E</h2>
+        <h2>NithyaSundharam E</h2>
 
         <p>
-          Full Stack MERN Developer passionate about building
-          responsive and modern web applications.
+          Full Stack MERN Developer focused on building responsive, scalable, and user-friendly web applications with modern UI and best development practices.
         </p>
 
         <div className="footer-icons">
@@ -50,7 +49,7 @@ function Footer() {
         </p>
 
         <p className="made">
-          Made with <FaHeart className="heart" /> using React
+          Built with React <FaHeart className="heart" /> Designed & Developed by Me
         </p>
 
       </div>
