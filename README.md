@@ -1,16 +1,76 @@
-# React + Vite
+#  Nithish | Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive personal portfolio showcasing my projects, technical skills, education, certifications, and contact information. Built to highlight my journey as a Full-Stack Web Developer and make it easy for recruiters and clients to explore my work.
 
-Currently, two official plugins are available:
+##  Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+  https://nithish-plum.vercel.app/
 
-## React Compiler
+##  GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  https://github.com/vjnithish17/Nithish
 
-## Expanding the ESLint configuration
+##  Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-  Modern Landing Page
+-  About Me
+-  Technical Skills
+-  Education
+-  Featured Projects
+-  Certifications
+-  Contact Section
+-  Fully Responsive Design
+-  Smooth Animations
+
+##  Tech Stack
+
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Bootstrap 5
+- React Router DOM
+
+##  Screenshot
+
+![Portfolio Screenshot](./image.png)
+
+##  Installation
+
+```bash
+git clone https://github.com/vjnithish17/Nithish.git
+cd Nithish
+npm install
+npm start
+```
+
+##  Deployment
+
+- **Frontend:** https://nithish-plum.vercel.app/
+
+##  Featured Projects
+
+###  AI Expense Tracker
+- AI-powered expense management application
+- React.js, REST API, Groq AI Integration
+
+###  Employee Management System
+- Employee CRUD operations
+- React.js, Axios, JSON Server
+
+###  Dairy Farm Management System
+- Milk collection and expense tracking dashboard
+- React.js, Local Storage
+
+##  Author
+
+**Nithyasundharam E**
+
+-  Portfolio: https://nithish-plum.vercel.app/
+-  GitHub: https://github.com/vjnithish17
+-  LinkedIn:https://www.linkedin.com/in/nithish-e-27b2822a5/
+-  Email:vjnithish17@gmail.com
+
+---
+
+ If you like this project, don't forget to **Star** the repository!
